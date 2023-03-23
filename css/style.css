@@ -2212,7 +2212,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 1200px) {
   .discover__compass {
-    right: 150px;
+    right: 100px;
   }
 }
 
@@ -2305,7 +2305,7 @@ button.swiper-pagination-bullet {
 
   .discover__compass {
     right: 50px;
-    bottom: 10px;
+    bottom: -40px;
   }
 
   .travel__container {
@@ -2591,13 +2591,15 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 350px) {
+  .location__slide-block {
+    left: 5px;
+  }
+}
+
+@media (max-width: 321px) {
   .location__slide-wrapper {
     width: 270px;
     height: 380px;
-  }
-
-  .location__slide-block {
-    left: 5px;
   }
 }
 
